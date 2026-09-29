@@ -1,0 +1,14 @@
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/bin/Debug/net8.0/AutoSzerviz_dolgozat
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/bin/Debug/net8.0/AutoSzerviz_dolgozat.deps.json
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/bin/Debug/net8.0/AutoSzerviz_dolgozat.runtimeconfig.json
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/bin/Debug/net8.0/AutoSzerviz_dolgozat.dll
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/bin/Debug/net8.0/AutoSzerviz_dolgozat.pdb
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/AutoSzerviz_dolgozat.GeneratedMSBuildEditorConfig.editorconfig
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/AutoSzerviz_dolgozat.AssemblyInfoInputs.cache
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/AutoSzerviz_dolgozat.AssemblyInfo.cs
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/AutoSzerviz_dolgozat.csproj.CoreCompileInputs.cache
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/AutoSzerviz_dolgozat.dll
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/refint/AutoSzerviz_dolgozat.dll
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/AutoSzerviz_dolgozat.pdb
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/AutoSzerviz_dolgozat.genruntimeconfig.cache
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/ref/AutoSzerviz_dolgozat.dll

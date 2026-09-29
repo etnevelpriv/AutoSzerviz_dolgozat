@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AutoSzerviz_dolgozat/1.0.0": {
+        "runtime": {
+          "AutoSzerviz_dolgozat.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoSzerviz_dolgozat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
