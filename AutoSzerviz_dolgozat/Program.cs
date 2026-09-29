@@ -6,8 +6,8 @@ namespace AutoSzerviz_dolgozat
         static void Main(string[] args)
         {
             // Szerviz szerviz = new Szerviz();
-            Jarmu ujAuto = new Jarmu("rmb-345", 12, 200, 80);
-            Console.WriteLine(ujAuto.SzervizSzukseges);
+            Jarmu ujAuto = new Jarmu("rmb-345", 12, 199999, 80);
+            Console.WriteLine(ujAuto.InformaciotAd());
         }
     }
 }

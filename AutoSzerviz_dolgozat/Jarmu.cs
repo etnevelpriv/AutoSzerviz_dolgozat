@@ -103,5 +103,9 @@ namespace AutoSzerviz_dolgozat
             KilometerOra = kilometerOra;
             UzemanyagSzint = uzemanyagSzint;
         }
+        public string InformaciotAd()
+        {
+            return ($"{rendszam} - {kor} éves jármű, {kilometerOra} km-rel");
+        }
     }
 }
