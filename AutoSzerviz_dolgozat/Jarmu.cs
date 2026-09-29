@@ -4,9 +4,9 @@ namespace AutoSzerviz_dolgozat
 {
     public class Jarmu
     {
-        private string rendszam = "ISMERETLEN";
-        private int kor;
-        private int kilometerOra;
+        protected string rendszam = "ISMERETLEN";
+        protected int kor;
+        protected int kilometerOra;
         private int uzemanyagSzint;
         private bool szervizSzukseges;
 
