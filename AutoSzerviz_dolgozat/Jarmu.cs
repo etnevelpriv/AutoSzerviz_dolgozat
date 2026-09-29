@@ -114,7 +114,7 @@ namespace AutoSzerviz_dolgozat
                 kilometerOra = kilometerOra-10000;
             }
             uzemanyagSzint = uzemanyagSzint-10;
-            return ($"A jármű szervizelése megtörént km:{kilometerOra}, uzemanyag: {uzemanyagSzint}");
+            return ($"A jármű szervizelése megtörtént");
         } 
     }
 }
