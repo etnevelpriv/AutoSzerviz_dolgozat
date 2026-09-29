@@ -34,12 +34,7 @@ namespace AutoSzerviz_dolgozat
         public override string Szervizel(int dij)
         {
             rakomany = 0;
-            if (dij > 100000)
-            {
-                kilometerOra = kilometerOra - 10000;
-            }
-            return ($"A jármű szervizelése megtörtént");
+            return (base.Szervizel(dij));
         }
-
     }
 }
