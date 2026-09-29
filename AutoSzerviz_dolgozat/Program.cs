@@ -19,6 +19,9 @@ namespace AutoSzerviz_dolgozat
             Console.WriteLine(ujTeher.InformaciotAd());
             Console.WriteLine(ujTeher.Szervizel(9999));
             Console.WriteLine(ujTeher.InformaciotAd());
+
+            Szerviz szerviz = new Szerviz();
+            szerviz.JarmuFelvetel(ujAuto);
         }
     }
 }
