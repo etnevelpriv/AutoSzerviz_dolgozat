@@ -107,5 +107,14 @@ namespace AutoSzerviz_dolgozat
         {
             return ($"{rendszam} - {kor} éves jármű, {kilometerOra} km-rel");
         }
+        public string Szervizel(int dij)
+        {
+            if (dij > 100000)
+            {
+                kilometerOra -= 10000;
+            }
+            uzemanyagSzint -= 10;
+            return ("A jármű szervizelése megtörént");
+        } 
     }
 }
