@@ -29,7 +29,7 @@ namespace AutoSzerviz_dolgozat
         }
         public override string InformaciotAd()
         {
-            return ($"{rendszam} - {kor} éves teherautó, {kilometerOra} km-rel, rakomány: {rakomany}% tonna.");
+            return ($"{rendszam} - {kor} éves teherautó, {kilometerOra} km-rel, rakomány: {rakomany} tonna.");
         }
         public override string Szervizel(int dij)
         {
