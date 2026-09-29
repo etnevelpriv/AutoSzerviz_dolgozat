@@ -24,8 +24,8 @@ namespace AutoSzerviz_dolgozat
             szerviz.JarmuFelvetel(ujAuto);
             szerviz.JarmuFelvetel(ujElektromosAuto);
             szerviz.JarmuFelvetel(ujTeher);
-
             szerviz.CsoportSzerviz(10000);
+            szerviz.InformaciokListazasa();
         }
     }
 }
