@@ -103,11 +103,11 @@ namespace AutoSzerviz_dolgozat
             KilometerOra = kilometerOra;
             UzemanyagSzint = uzemanyagSzint;
         }
-        public string InformaciotAd()
+        public virtual string InformaciotAd()
         {
             return ($"{rendszam} - {kor} éves jármű, {kilometerOra} km-rel");
         }
-        public string Szervizel(int dij)
+        public virtual string Szervizel(int dij)
         {
             if (dij > 100000)
             {
@@ -115,6 +115,6 @@ namespace AutoSzerviz_dolgozat
             }
             uzemanyagSzint = uzemanyagSzint-10;
             return ($"A jármű szervizelése megtörtént");
-        } 
+        }
     }
 }

@@ -11,6 +11,9 @@ namespace AutoSzerviz_dolgozat
             Console.WriteLine(ujAuto.Szervizel(9999));
             Console.WriteLine(ujAuto.Szervizel(1000000));
             Console.WriteLine(ujAuto.InformaciotAd());
+
+            ElektromosAuto ujElektromosAuto = new ElektromosAuto("ELEKTROMOS", 100, 250000, 120);
+            Console.WriteLine(ujElektromosAuto.InformaciotAd());
         }
     }
 }
