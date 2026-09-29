@@ -30,18 +30,20 @@ namespace AutoSzerviz_dolgozat
         {
             AkkumulatorSzint = akkumulatorSzint;
         }
-        public override string InformaciotAd()
+        public override void InformaciotAd()
         {
-            return ($"{rendszam} - {kor} éves elektromos autó, {kilometerOra} km-rel, {akkumulatorSzint}% töltöttséggel.");
+            Console.WriteLine($"{rendszam} - {kor} éves elektromos autó, {kilometerOra} km-rel, {akkumulatorSzint}% töltöttséggel.");
+            return;
         }
-        public override string Szervizel(int dij)
+        public override void Szervizel(int dij)
         {
             if (dij > 100000)
             {
                 kilometerOra = kilometerOra - 10000;
             }
             akkumulatorSzint = akkumulatorSzint - 10;
-            return ($"A jármű szervizelése megtörtént");
+            Console.WriteLine($"A jármű szervizelése megtörtént");
+            return;
         }
 
     }

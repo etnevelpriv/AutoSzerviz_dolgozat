@@ -14,10 +14,12 @@ namespace AutoSzerviz_dolgozat
                 if (value < 0)
                 {
                     rakomany = 0;
-                } else if (value > 20)
+                }
+                else if (value > 20)
                 {
                     rakomany = 20;
-                } else
+                }
+                else
                 {
                     rakomany = value;
                 }
@@ -27,14 +29,15 @@ namespace AutoSzerviz_dolgozat
         {
             Rakomany = rakomany;
         }
-        public override string InformaciotAd()
+        public override void InformaciotAd()
         {
-            return ($"{rendszam} - {kor} éves teherautó, {kilometerOra} km-rel, rakomány: {rakomany} tonna.");
+            Console.WriteLine(($"{rendszam} - {kor} éves teherautó, {kilometerOra} km-rel, rakomány: {rakomany} tonna."));
+            return;
         }
-        public override string Szervizel(int dij)
+        public override void Szervizel(int dij)
         {
             rakomany = 0;
-            return (base.Szervizel(dij));
+            base.Szervizel(dij);
         }
     }
 }

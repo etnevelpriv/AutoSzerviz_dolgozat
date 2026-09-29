@@ -103,18 +103,20 @@ namespace AutoSzerviz_dolgozat
             KilometerOra = kilometerOra;
             UzemanyagSzint = uzemanyagSzint;
         }
-        public virtual string InformaciotAd()
+        public virtual void InformaciotAd()
         {
-            return ($"{rendszam} - {kor} éves jármű, {kilometerOra} km-rel");
+            Console.WriteLine(($"{rendszam} - {kor} éves jármű, {kilometerOra} km-rel"));
+            return;
         }
-        public virtual string Szervizel(int dij)
+        public virtual void Szervizel(int dij)
         {
             if (dij > 100000)
             {
                 kilometerOra = kilometerOra-10000;
             }
             uzemanyagSzint = uzemanyagSzint-10;
-            return ($"A jármű szervizelése megtörtént");
+            Console.WriteLine(($"A jármű szervizelése megtörtént"));
+            return;
         }
     }
 }

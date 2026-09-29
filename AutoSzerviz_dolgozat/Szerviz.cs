@@ -12,7 +12,7 @@ namespace AutoSzerviz_dolgozat
         {
             foreach (Jarmu jarmu in jarmuLista)
             {
-                Console.WriteLine(jarmu.InformaciotAd());
+                jarmu.InformaciotAd();
             }
             return;
         }
@@ -23,11 +23,11 @@ namespace AutoSzerviz_dolgozat
                 if (jarmu.SzervizSzukseges)
                 {
                     jarmu.Szervizel(dij);
-                } else
+                }
+                else
                 {
                     Console.WriteLine($"A {jarmu.Rendszam} szervizelése jelenleg nem szükséges.");
                 }
-                return;
             }
         }
     }
