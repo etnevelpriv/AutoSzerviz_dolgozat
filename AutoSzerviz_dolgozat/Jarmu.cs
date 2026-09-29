@@ -111,10 +111,10 @@ namespace AutoSzerviz_dolgozat
         {
             if (dij > 100000)
             {
-                kilometerOra -= 10000;
+                kilometerOra = kilometerOra-10000;
             }
-            uzemanyagSzint -= 10;
-            return ("A jármű szervizelése megtörént");
+            uzemanyagSzint = uzemanyagSzint-10;
+            return ($"A jármű szervizelése megtörént km:{kilometerOra}, uzemanyag: {uzemanyagSzint}");
         } 
     }
 }
