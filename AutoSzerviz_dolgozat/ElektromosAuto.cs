@@ -41,7 +41,7 @@ namespace AutoSzerviz_dolgozat
             {
                 kilometerOra = kilometerOra - 10000;
             }
-            akkumulatorSzint = akkumulatorSzint - 10;
+            akkumulatorSzint = akkumulatorSzint + 20;
             Console.WriteLine($"A jármű szervizelése megtörtént");
             return;
         }

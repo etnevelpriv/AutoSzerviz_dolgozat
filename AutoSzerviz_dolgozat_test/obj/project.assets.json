@@ -377,6 +377,16 @@
             "related": ".xml"
           }
         }
+      },
+      "AutoSzerviz_dolgozat/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AutoSzerviz_dolgozat.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutoSzerviz_dolgozat.dll": {}
+        }
       }
     }
   },
@@ -970,10 +980,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "AutoSzerviz_dolgozat/1.0.0": {
+      "type": "project",
+      "path": "../AutoSzerviz_dolgozat/AutoSzerviz_dolgozat.csproj",
+      "msbuildProject": "../AutoSzerviz_dolgozat/AutoSzerviz_dolgozat.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AutoSzerviz_dolgozat >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "NUnit >= 3.14.0",
       "NUnit.Analyzers >= 3.9.0",
@@ -1005,7 +1021,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat.csproj": {
+              "projectPath": "/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

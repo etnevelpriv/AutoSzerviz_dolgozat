@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Autoszerviz_dolgozat\Autoszerviz_dolgozat.csproj" />
+    <ProjectReference Include="..\AutoSzerviz_dolgozat\AutoSzerviz_dolgozat.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Using Include="NUnit.Framework" />
