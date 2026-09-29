@@ -93,7 +93,7 @@ namespace AutoSzerviz_dolgozat
         {
             get
             {
-                return uzemanyagSzint>=200;
+                return kilometerOra>=200000;
             }
         }
         public Jarmu (string rendszam, int kor, int kilometerOra, int uzemanyagSzint)

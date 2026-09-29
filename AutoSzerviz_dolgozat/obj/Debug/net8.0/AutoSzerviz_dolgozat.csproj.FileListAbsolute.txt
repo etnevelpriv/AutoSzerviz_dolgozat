@@ -12,3 +12,4 @@
 /home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/AutoSzerviz_dolgozat.pdb
 /home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/AutoSzerviz_dolgozat.genruntimeconfig.cache
 /home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/ref/AutoSzerviz_dolgozat.dll
+/home/etnevel/Suli/Desktop_App/AutoSzerviz_dolgozat/AutoSzerviz_dolgozat/obj/Debug/net8.0/AutoSzerviz_dolgozat.sourcelink.json
