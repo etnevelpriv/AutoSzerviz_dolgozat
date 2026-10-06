@@ -112,9 +112,9 @@ namespace AutoSzerviz_dolgozat
         {
             if (dij > 100000)
             {
-                kilometerOra = kilometerOra-10000;
+                KilometerOra = kilometerOra-10000;
             }
-            uzemanyagSzint = uzemanyagSzint-10;
+            UzemanyagSzint = uzemanyagSzint-10;
             Console.WriteLine(($"A jármű szervizelése megtörtént"));
             return;
         }

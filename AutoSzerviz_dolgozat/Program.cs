@@ -26,6 +26,17 @@ namespace AutoSzerviz_dolgozat
             szerviz.JarmuFelvetel(ujTeher);
             szerviz.CsoportSzerviz(10000);
             szerviz.InformaciokListazasa();
+
+            SportAuto ujSport = new SportAuto("sport", 1, 400, 80, 1200);
+            ujSport.InformaciotAd();
+            ujSport.Szervizel(300000);
+            ujSport.Szervizel(300000);
+            ujSport.Szervizel(300000);
+            ujSport.Szervizel(300000);
+            ujSport.Szervizel(300000);
+            ujSport.Szervizel(300000);
+            ujSport.Szervizel(300000);
+            ujSport.InformaciotAd();
         }
     }
 }

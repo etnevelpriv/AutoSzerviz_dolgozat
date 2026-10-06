@@ -39,9 +39,9 @@ namespace AutoSzerviz_dolgozat
         {
             if (dij > 100000)
             {
-                kilometerOra = kilometerOra - 10000;
+                KilometerOra = kilometerOra - 10000;
             }
-            akkumulatorSzint = akkumulatorSzint + 20;
+            AkkumulatorSzint = akkumulatorSzint + 20;
             Console.WriteLine($"A jármű szervizelése megtörtént");
             return;
         }

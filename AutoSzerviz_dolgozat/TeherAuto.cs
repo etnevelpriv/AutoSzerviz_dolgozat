@@ -36,7 +36,7 @@ namespace AutoSzerviz_dolgozat
         }
         public override void Szervizel(int dij)
         {
-            rakomany = 0;
+            Rakomany = 0;
             base.Szervizel(dij);
         }
     }
