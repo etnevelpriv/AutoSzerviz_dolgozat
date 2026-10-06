@@ -145,6 +145,19 @@ namespace AutoSzerviz_dolgozat_test
         }
 
         // -------------------------
+        // SportAuto tesztek
+        // -------------------------
+
+        [Test]
+        public void SportAuto_Loero_KezdetiErtekHelyes()
+        {
+            SportAuto auto = new SportAuto("SportAuto-123", 8, 150000, 60, 1300);
+
+            Assert.That(auto.Loero, Is.EqualTo(1300));
+        }
+
+
+        // -------------------------
         // Szerviz tesztek
         // -------------------------
 

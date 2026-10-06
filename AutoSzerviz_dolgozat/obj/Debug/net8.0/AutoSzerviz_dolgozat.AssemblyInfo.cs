@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoSzerviz_dolgozat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f160e2bcc39bef38fb38b8438728a1ddfa458e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9a3b7f350b889d9c096baaa3f19f66a1f4d4021")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoSzerviz_dolgozat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoSzerviz_dolgozat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
